@@ -13,7 +13,7 @@ export const mutations = {
         task.done = !task.done;
     },
     REMOVE_DONE_TASKS(state, task) {
-        state.tasks = state.tasks.filter( task => !task.done)
+        state.tasks = state.tasks.filter( task => !task.done);
     },
     REMOVE_ALL_TASKS(state, task) {
         state.tasks = [];
